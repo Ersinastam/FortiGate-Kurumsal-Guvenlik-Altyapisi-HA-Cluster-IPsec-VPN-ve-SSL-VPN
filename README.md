@@ -6,6 +6,20 @@ Proje Özeti:
 
 EVE-NG simülasyon ortamında, kurumsal bir şirketin Merkez (HQ) ve Şube (Branch) lokasyonları arasındaki ağ ve güvenlik altyapısını uçtan uca kurgulamak amacıyla hazırlanmıştır. Proje, sadece bağlantı kurmayı değil, donanımsal ve hat bazlı yedekliliği (redundancy) ve güvenli uzak erişimi hedeflemektedir.
 
+Yapılandırmalar:  
+
+Yüksek Erişilebilirlik (HA): Merkez ofiste iki adet FortiGate cihazı Active-Passive HA modunda yapılandırılmıştır. Bu sayede aktif cihazın arızalanması veya izlenen (monitör edilen) arayüzlerde bağlantı kaybı yaşanması durumunda, sistem otomatik olarak yedek cihaza geçerek (failover) iş sürekliliğini kesintisiz bir şekilde gerçekleştirilmesi sağlanmıştır.
+
+
+Güvenli Şubeler Arası Bağlantı:
+
+Güvenli Şubeler Arası Bağlantı: HQ ve Branch lokasyonları arasında Site-to-Site IPsec VPN tüneli kurulmuştur. Bu sayede 192.168.x.x ve 172.16.x.x blokları güvenli bir tünel üzerinden haberleşmektedir.
+
+
+Ağ Segmentasyonu Ve Yedeklilik (VLAN,HSRP): İç ağ; Satış, Finans , İK  VE IT olmak üzere VLAN'lara bölünmüştür. Core Switch'ler üzerinde HSRP ile iç ağ yedekliliği sağlanmıştır.
+
+Uzak Erişim (SSL-VPN):Evden veya dışarıdan çalışan kullanıcılar için FortiClient SSL-VPN portalı yapılandırılmış, kurumsal kaynaklara güvenli erişim simüle edilmiştir.
+
 
 ### Detaylı IP ve VLAN Planlaması
 
