@@ -4,7 +4,7 @@ EVE-NG üzerinde tasarlanmış; FortiGate A-P HA , Site-to-Site IPsec ve SSL VPN
 
 Proje Özeti: 
 
-EVE-NG simülasyon ortamında, kurumsal bir şirketin Merkez (HQ) ve Şube (Branch) lokasyonları arasındaki ağ ve güvenlik altyapısını uçtan uca kurgulamak amacıyla hazırlanmıştır. Proje, sadece bağlantı kurmayı değil, donanımsal ve hat bazlı yedekliliği (redundancy) ve güvenli uzak erişimi hedeflemektedir.
+Bu çalışma; EVE-NG üzerinde, bir kurumun Merkez (HQ) ve Şube (Branch) lokasyonları arasındaki ağ trafiğini ve güvenliğini yönetmek için kurgulanmıştır. Temel odak noktası; cihaz veya hat kesintilerinde trafiğin durmaması ve uzak çalışanların merkeze güvenli erişimidir.
 
 Yapılandırmalar:  
 
