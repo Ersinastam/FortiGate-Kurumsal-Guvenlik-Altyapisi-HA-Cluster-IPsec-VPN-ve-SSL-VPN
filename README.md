@@ -9,7 +9,7 @@ EVE-NG üzerinde tasarlanmış; FortiGate A-P HA , Site-to-Site IPsec ve SSL VPN
 | **VLAN 10** | Sale     | 192.168.10.0/24 | 192.168.10.1 |
 | **VLAN 20** | Finance  | 192.168.20.0/24 | 192.168.20.1 |  
 | **VLAN 30** | HR       | 192.168.30.0/24 | 192.168.30.1 |
-| **VLAN 40** | IT /     | 192.168.40.0/24 | 192.168.40.1 |
+| **VLAN 40** | IT       | 192.168.40.0/24 | 192.168.40.1 |
 
 #### Şube (Branch) Ofis - 
 | Birim | IP Bloğu | Gateway |
