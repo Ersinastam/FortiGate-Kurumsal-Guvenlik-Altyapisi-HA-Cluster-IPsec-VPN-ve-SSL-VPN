@@ -106,7 +106,8 @@ HQ-FIRWALL İPSEC CONFİG
 
 <img width="1882" height="912" alt="image" src="https://github.com/user-attachments/assets/b7d28656-8776-4d1c-9848-427d5d473949" />
 
-<img width="653" height="727" alt="image" src="https://github.com/user-attachments/assets/87d28165-3188-4237-be03-62a35a5e6d4e" />
+<img width="1910" height="930" alt="image" src="https://github.com/user-attachments/assets/93601d29-dc60-40fa-b7cd-bc391654f4bf" />
+
 
 <img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/8fc44a87-abe1-4285-a564-55a7ea65c2f9" />
 
