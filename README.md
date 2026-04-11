@@ -73,20 +73,30 @@ Görselde görüldüğü üzere; FGT-1 ve FGT-2 cihazları 'Synchronized' statü
 <img width="1902" height="902" alt="image" src="https://github.com/user-attachments/assets/82f31aa2-cc79-4dde-afcc-7ef4410c0ecf" />
 
 
-Failover Testleri:
+Failover Senaryosu ve Test Sonuçları:
 
-
+Test senaryosu kapsamında, Merkez ofisteki Primary FortiGate ünitesinde donanımsal bir arıza simüle edilerek cihaz kapatılmıştır
 
 <img width="774" height="910" alt="image" src="https://github.com/user-attachments/assets/753c800a-739b-43c3-bb71-18f1c0c40b2c" />
 
+Kesintisiz Trafik (Ping Testi):
+
+Cihazın kapanma anında aktif trafik (ICMP) izlenmiştir. Görselde görüldüğü üzere, sadece 2 paketlik bir gecikme ile trafik kesintiye uğramadan yedek üniteye devredilmiştir.
+
 <img width="1225" height="805" alt="image" src="https://github.com/user-attachments/assets/7dec0dca-ac2d-4ed5-9e6e-90a3a832f850" />
+
+Rol Değişimi:
+
+
+Failover sonrası Secondary ünite, cluster içindeki 'Primary' rolünü otomatik olarak üstlenmiş ve network yönetimini devralmıştır.
 
 <img width="1889" height="894" alt="image" src="https://github.com/user-attachments/assets/a60fb45c-6f63-40ba-a041-6651f88f4a81" />
 
+Log Kaydı:
+
+Secondary cihaz üzerindeki trafik logları incelendiğinde, istemci (Client) IP adreslerinin sorunsuz bir şekilde oturumlarını sürdürdüğü ve firewall kuralları üzerinden trafiğin akmaya devam ettiği teyit edilmiştir.
 
 <img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/4c0f0ad5-14e5-4427-a13c-b210ac227ec2" />
-
-
 
 
 
