@@ -73,14 +73,6 @@ Görselde görüldüğü üzere; FGT-1 ve FGT-2 cihazları 'Synchronized' statü
 <img width="1902" height="902" alt="image" src="https://github.com/user-attachments/assets/82f31aa2-cc79-4dde-afcc-7ef4410c0ecf" />
 
 
-FGT2 ha configurasynu
-
-<img width="1904" height="903" alt="image" src="https://github.com/user-attachments/assets/a37f5099-e372-4359-a32d-a2867df56722" />
-
-
-
-
-
 
 
 
