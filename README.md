@@ -1,4 +1,4 @@
-# Enterprise-Network-And-Security-Infrastructure-Design
+<img width="1818" height="882" alt="Screenshot 2026-04-11 190127" src="https://github.com/user-attachments/assets/208e56fd-6da5-4163-b3e3-f5a40cfa1673" /># Enterprise-Network-And-Security-Infrastructure-Design
 
 EVE-NG üzerinde tasarlanmış; **FortiGate Active-Passive HA**, **Site-to-Site IPsec VPN** ve **SSL VPN** teknolojilerini içeren yedekli kurumsal ağ ve güvenlik altyapısı tasarımı.
 
@@ -128,24 +128,31 @@ VPN bağlantısının dış dünyaya açıldığı port ve IP havuzu yapılandı
 * **IP Havuzu (Address Range):** Bağlanan kullanıcılara `10.212.134.200 - 10.212.134.210` aralığından otomatik IP atanması sağlanmıştır.
 * **Authentication:** `Remote-user` grubu için `full-access` portalı eşleştirilmiştir.
 
-<img width="1877" height="913" alt="SSL VPN Settings" src="https://github.com/user-attachments/assets/fa1e37a3-5fdb-4513-956b-9995efe4f603" />
+
+<img width="1897" height="895" alt="Screenshot 2026-04-11 190106" src="https://github.com/user-attachments/assets/32b67e97-1917-48c6-8b27-5093380a2497" />
+
 
 ### **2. SSL-VPN Portal ve Split Tunneling**
 Kullanıcı deneyimini ve bant genişliğini optimize etmek adına **Split Tunneling** özelliği aktif edilmiştir.
 * **Split Tunneling (Enabled):** Sadece kurumsal network (Merkez LAN) trafiği VPN tüneline yönlendirilirken; kullanıcının internet trafiği kendi yerel bağlantısı üzerinden akmaya devam eder. Bu sayede firewall üzerindeki internet yükü minimize edilmiştir.
 * **Erişim Modu:** Hem Web Mode (Tarayıcı tabanlı) hem de Tunnel Mode (FortiClient) desteği sunulmuştur.
 
-<img width="1910" height="930" alt="SSL VPN Portal" src="https://github.com/user-attachments/assets/93601d29-dc60-40fa-b7cd-bc391654f4bf" />
+
+<img width="1905" height="914" alt="Screenshot 2026-04-11 190117" src="https://github.com/user-attachments/assets/548dc8e9-f287-4298-9caa-8bbcfb889127" />
+
 
 ### **3. İstemci Tarafı Bağlantı Testi (FortiClient)**
 "Ahmetb" isimli kullanıcı, FortiClient yazılımı üzerinden merkez ofise (HQ) başarılı bir şekilde tünel kurmuştur. Kullanıcının `10.212.134.200` sanal IP adresini aldığı ve tünel süresinin aktif olduğu doğrulanmıştır.
 
-<img width="1225" height="805" alt="FortiClient Connection" src="https://github.com/user-attachments/assets/image_ea2cbb.jpg" />
+
+<img width="1818" height="882" alt="Screenshot 2026-04-11 190127" src="https://github.com/user-attachments/assets/33f6f4e3-4f21-4283-8d66-762cdd18bf4f" />
+
 
 ### **4. Operasyonel İzleme (SSL-VPN Monitor)**
 Aktif VPN oturumları **SSL-VPN Monitor** üzerinden gerçek zamanlı olarak takip edilmektedir. Bağlı olan kullanıcıların kaynak kullanımı, bağlantı süreleri ve Remote Host IP bilgileri bu ekran üzerinden denetlenmektedir.
 
-<img width="1904" height="908" alt="SSL VPN Monitor" src="https://github.com/user-attachments/assets/4c0f0ad5-14e5-4427-a13c-b210ac227ec2" />
+
+
 
 ---
 
