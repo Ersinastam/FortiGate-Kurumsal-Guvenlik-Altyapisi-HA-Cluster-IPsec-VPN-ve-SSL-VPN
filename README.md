@@ -102,6 +102,41 @@ Secondary cihaz üzerindeki trafik logları incelendiğinde, istemci (Client) IP
 
 Site-to-Site IPsec VPN
 
+HQ-FIRWALL İPSEC CONFİG
+
+<img width="1882" height="912" alt="image" src="https://github.com/user-attachments/assets/b7d28656-8776-4d1c-9848-427d5d473949" />
+
+<img width="653" height="727" alt="image" src="https://github.com/user-attachments/assets/87d28165-3188-4237-be03-62a35a5e6d4e" />
+
+<img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/8fc44a87-abe1-4285-a564-55a7ea65c2f9" />
+
+<img width="1907" height="916" alt="image" src="https://github.com/user-attachments/assets/e120aab1-d2e1-4d6f-91a1-f9e8d49be61a" />
+
+
+
+
+<img width="1906" height="906" alt="image" src="https://github.com/user-attachments/assets/73b00d20-38fa-4a11-9d09-1dfee4983ce0" />
+
+BR-FIRWALL İPSEC CONFİG
+
+<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/12ea7473-c45f-4531-bd4c-afd620b8e137" />
+
+
+<img width="1902" height="904" alt="image" src="https://github.com/user-attachments/assets/4d7bca7d-177a-4a06-9027-c168bdbded9e" />
+
+
+<img width="1902" height="917" alt="image" src="https://github.com/user-attachments/assets/f3295ba7-e4fc-47c3-af60-22add2d7b83e" />
+
+
+<img width="1904" height="910" alt="image" src="https://github.com/user-attachments/assets/cdd3d32e-c27c-4bd7-ada5-91628fab10c9" />
+
+
+
+
+
+
+
+
 
 Uzak Erişim (SSL-VPN)
 
