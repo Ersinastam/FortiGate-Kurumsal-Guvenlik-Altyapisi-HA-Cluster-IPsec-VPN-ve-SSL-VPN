@@ -101,7 +101,7 @@ Secondary cihaz üzerindeki trafik logları incelendiğinde, istemci (Client) IP
 
 ### BR-FIREWALL (Şube) IPsec Yapılandırması
 
-**Tünel Ayarları:** HQ-Firewall üzerindeki Phase 1 ve Phase 2 ayarları ile birebir eşleşecek (Mirror Config) şekilde konfigürasyon yapılmıştır. IKE protokolü üzerinden karşılıklı güvenli anahtar değişimi sağlanmıştır.
+**Tünel Ayarları:** HQ-Firewall üzerindeki Phase 1 ve Phase 2 ayarları ile birebir eşleşecek şekilde konfigürasyon yapılmıştır. IKE protokolü üzerinden karşılıklı güvenli anahtar değişimi sağlanmıştır.
 
 <img width="1902" height="911" alt="BR VPN Config 1" src="https://github.com/user-attachments/assets/12ea7473-c45f-4531-bd4c-afd620b8e137" />
 <img width="1902" height="904" alt="BR VPN Config 2" src="https://github.com/user-attachments/assets/4d7bca7d-177a-4a06-9027-c168bdbded9e" />
@@ -115,6 +115,11 @@ Secondary cihaz üzerindeki trafik logları incelendiğinde, istemci (Client) IP
 
 <img width="1899" height="908" alt="BR Policy 1" src="https://github.com/user-attachments/assets/c6d22c5c-cf69-4971-8c91-2ad7e1cfa8cc" />
 <img width="1906" height="906" alt="BR Policy 2" src="https://github.com/user-attachments/assets/73b00d20-38fa-4a11-9d09-1dfee4983ce0" />
+
+
+✅ IPsec Faz Doğrulaması (Phase 1 & Phase 2 Status)
+
+Yapılandırma sonrası tünelin operasyonel durumu IPsec Monitor üzerinden kontrol edilmiş ve her iki fazın da başarılı bir şekilde "Up" olduğu teyit edilmiştir
 
 ---
 
