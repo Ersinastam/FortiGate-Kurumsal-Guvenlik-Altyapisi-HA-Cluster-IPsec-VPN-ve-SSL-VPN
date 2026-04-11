@@ -100,16 +100,29 @@ Secondary cihaz üzerindeki trafik logları incelendiğinde, istemci (Client) IP
 
 
 
-Site-to-Site IPsec VPN
+Site-to-Site IPsec VPN Yapılandırması (HQ & Branch)
+
+
+Merkez ofis (HQ) ve Şube (Branch) arasındaki ağ trafiğinin güvenli bir tünel üzerinden taşınması amacıyla uçtan uca IPsec VPN mimarisi kurgulanmıştır.
+
+
 
 HQ-FIRWALL İPSEC CONFİG
 
+
+Tünel Ayarları (Phase 1 & Phase 2): Görselde görüldüğü üzere; Remote Gateway olarak Branch ofis IP adresi tanımlanmış ve IKEv1 parametreleri (DES-MD5) set edilmiştir. Phase 2 aşamasında ilgili networklerin el sıkışması için gerekli selector tanımlamaları yapılmıştır.
+
 <img width="1882" height="912" alt="image" src="https://github.com/user-attachments/assets/b7d28656-8776-4d1c-9848-427d5d473949" />
+
+Routing (Rota): Şube networküne (Branch LAN) erişim sağlamak amacıyla hedef networkler IPsec tünel arayüzüne yönlendirilmiş, böylece trafiğin tünel içine girmesi sağlanmıştır.
 
 <img width="1910" height="930" alt="image" src="https://github.com/user-attachments/assets/93601d29-dc60-40fa-b7cd-bc391654f4bf" />
 
+Firewall Policy: Merkez LAN'dan Şube LAN'ına doğru giden ve şubeden gelen trafik için karşılıklı erişim kuralları tanımlanmış; tüm trafik loglanarak izlemeye alınmıştır.
 
 <img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/8fc44a87-abe1-4285-a564-55a7ea65c2f9" />
+
+
 
 <img width="1907" height="916" alt="image" src="https://github.com/user-attachments/assets/e120aab1-d2e1-4d6f-91a1-f9e8d49be61a" />
 
@@ -119,6 +132,8 @@ HQ-FIRWALL İPSEC CONFİG
 <img width="1906" height="906" alt="image" src="https://github.com/user-attachments/assets/73b00d20-38fa-4a11-9d09-1dfee4983ce0" />
 
 BR-FIRWALL İPSEC CONFİG
+
+
 
 <img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/12ea7473-c45f-4531-bd4c-afd620b8e137" />
 
