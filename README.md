@@ -160,6 +160,16 @@ Görsel üzerinden 'Ahmetb' isimli kullanıcının tünel modunda sisteme başar
 
 <img width="1888" height="907" alt="Screenshot 2026-04-11 190135" src="https://github.com/user-attachments/assets/089fd4bf-62dd-4d42-bc06-fdb22c4000c9" />
 
+---
 
+## ✅ Bağlantı Doğrulama ve Erişilebilirlik Testleri (Connectivity Validation)
+
+Proje kapsamında kurulan **Site-to-Site IPsec VPN** ve **SSL-VPN** yapılarının doğruluğu, tüm VLAN'lar arasında karşılıklı uçtan uca ping testleri ile teyit edilmiştir. 
+
+Operasyonel sürekliliği ve güvenli iletişimi sağlayan detaylı ping ve traceroute çıktıları aşağıdaki klasörden ulaşabilirsiniz:
+
+👉 **[Bağlantı Testleri ve Terminal Çıktıları Klasörü](./Ping-Tests)**
+
+---
 ---
 
