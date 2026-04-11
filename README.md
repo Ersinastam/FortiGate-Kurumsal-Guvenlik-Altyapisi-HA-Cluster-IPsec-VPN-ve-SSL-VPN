@@ -129,13 +129,15 @@ Firewall Policy: Merkez LAN'dan Şube LAN'ına doğru giden ve şubeden gelen tr
 
 
 
-<img width="1906" height="906" alt="image" src="https://github.com/user-attachments/assets/73b00d20-38fa-4a11-9d09-1dfee4983ce0" />
 
 
 
-BR-FIRWALL İPSEC CONFİG
+BR-Firewall (Şube) IPsec Yapılandırması
+
+Şube tarafındaki cihaz, Merkez (HQ) ile olan tüneli karşılamak ve yerel kullanıcıları merkeze ulaştırmak üzere yapılandırılmıştır.
 
 
+Tünel Ayarları: HQ-Firewall üzerindeki Phase 1 ve Phase 2 ayarları ile birebir eşleşecek (Mirror Config) şekilde konfigürasyon yapılmıştır. IKE protokolü üzerinden karşılıklı güvenli anahtar değişimi sağlanmıştır.
 
 <img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/12ea7473-c45f-4531-bd4c-afd620b8e137" />
 
@@ -143,18 +145,29 @@ BR-FIRWALL İPSEC CONFİG
 <img width="1902" height="904" alt="image" src="https://github.com/user-attachments/assets/4d7bca7d-177a-4a06-9027-c168bdbded9e" />
 
 
+
+
 <img width="1902" height="917" alt="image" src="https://github.com/user-attachments/assets/f3295ba7-e4fc-47c3-af60-22add2d7b83e" />
+
+
+Routing (Rota): Merkez ofis networklerine (HQ LAN) giden tüm taleplerin IPsec tüneline (Branch-to-HQ) yönlendirilmesi için statik rotalar yazılmıştır.
+
 
 
 <img width="1908" height="908" alt="image" src="https://github.com/user-attachments/assets/206d3c04-1d8b-46ac-b03c-977e7db33495" />
 
+Firewall Policy: Şube tarafındaki kullanıcıların merkez kaynaklarına (Sunucu, DB vb.) erişebilmesi için gerekli izin politikaları arayüz bazlı (LAN -> VPN) olarak tanımlanmıştır.
+
 
 <img width="1899" height="908" alt="image" src="https://github.com/user-attachments/assets/c6d22c5c-cf69-4971-8c91-2ad7e1cfa8cc" />
 
+<img width="1906" height="906" alt="image" src="https://github.com/user-attachments/assets/73b00d20-38fa-4a11-9d09-1dfee4983ce0" />
 
+Yapılandırma sonrası her iki lokasyonda da yapılan son kontroller:
 
+Status Check: IPsec Monitor ekranında her iki firewall ünitesinde de tünel durumunun "Up" (yeşil) olduğu gözlemlenmiştir.
 
-
+Trafik Akışı: Tünel üzerinden karşılıklı ping paketleri gönderilerek paketlerin şifrelendiği (Encryption) ve başarılı bir şekilde deşifre edilerek hedefe ulaştığı doğrulanmıştır.
 
 
 Uzak Erişim (SSL-VPN)
