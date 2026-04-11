@@ -1,5 +1,3 @@
-<img width="1818" height="882" alt="Screenshot 2026-04-11 190127" src="https://github.com/user-attachments/assets/208e56fd-6da5-4163-b3e3-f5a40cfa1673" /># Enterprise-Network-And-Security-Infrastructure-Design
-
 EVE-NG üzerinde tasarlanmış; **FortiGate Active-Passive HA**, **Site-to-Site IPsec VPN** ve **SSL VPN** teknolojilerini içeren yedekli kurumsal ağ ve güvenlik altyapısı tasarımı.
 
 ---
