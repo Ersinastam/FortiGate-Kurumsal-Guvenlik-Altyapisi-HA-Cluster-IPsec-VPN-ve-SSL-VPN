@@ -1,4 +1,4 @@
-# Enterprise-Network-And-Security-Infrastructure-Design
+# FortiGate-Kurumsal-Guvenlik-Altyapisi: HA-Cluster, IPsec-VPN ve SSL-VPN
 
 EVE-NG üzerinde tasarlanmış; **FortiGate Active-Passive HA**, **Site-to-Site IPsec VPN** ve **SSL VPN** teknolojilerini içeren yedekli kurumsal ağ ve güvenlik altyapısı tasarımı.
 
