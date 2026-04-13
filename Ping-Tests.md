@@ -1,5 +1,6 @@
-Aşağıda Merkez ve Şubede bulunan kullanıcıların ayrıntılı ping testleri bulunmaktadır.
+Site-to-Site IPsec VPN PING TESTLERI
 
+Bu bölümde, Merkez (HQ) ve Şube (Branch) lokasyonları arasında kurulan IPsec VPN tüneli üzerinden gerçekleştirilen ayrıntılı ping testleri yer almaktadır.
 
 <img width="740" height="1028" alt="Screenshot 2026-04-11 221537" src="https://github.com/user-attachments/assets/49cc7c7c-079f-4a5a-8a16-b965d58d899e" />
 
@@ -25,3 +26,8 @@ Aşağıda Merkez ve Şubede bulunan kullanıcıların ayrıntılı ping testler
 
 
 <img width="884" height="1036" alt="Screenshot 2026-04-11 222222" src="https://github.com/user-attachments/assets/c468b065-e025-4a95-88b9-9e3c9d5af70a" />
+
+REMOTE USER PING TESTI:
+
+<img width="1628" height="539" alt="image" src="https://github.com/user-attachments/assets/21102d50-61a2-4570-b1a2-227816d99446" />
+
