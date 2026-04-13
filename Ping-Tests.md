@@ -19,8 +19,6 @@ Bu bölümde, Merkez (HQ) ve Şube (Branch) lokasyonları arasında kurulan IPse
 <img width="732" height="1019" alt="Screenshot 2026-04-11 222305" src="https://github.com/user-attachments/assets/cedba05c-db05-4157-b40a-feee25bc2dcd" />
 
 
-<img width="756" height="1023" alt="Screenshot 2026-04-11 222249" src="https://github.com/user-attachments/assets/15bd4247-89ac-462d-afe6-ac2d70c0f266" />
-
 
 <img width="772" height="936" alt="Screenshot 2026-04-11 222232" src="https://github.com/user-attachments/assets/2362d741-6fe3-4830-b6b7-d392469419c1" />
 
